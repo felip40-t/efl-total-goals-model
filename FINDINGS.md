@@ -1,8 +1,7 @@
 # Total Goals Model: Summary of Findings
 
 A model predicting the **total goals** in an English football match (Premier
-League, Championship, League One; 2018/19 to date), built for the bet365
-Quantitative Analysis (Sports) assessment.
+League, Championship, League One; 2018/19 to date).
 
 **Headline result:** across an expanding-window walk-forward (7 folds, 9,756
 out-of-sample matches over 2019/20 to 2025/26) the model's pooled total-goals

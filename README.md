@@ -2,7 +2,7 @@
 
 Predicts the **total goals** in an English football match (Premier League,
 Championship, League One; seasons 2018/19 to date) with a Poisson team-strength
-GLM. Built for the bet365 Quantitative Analysis (Sports) technical assessment.
+GLM. 
 
 ## Findings
 
