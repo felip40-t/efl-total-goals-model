@@ -22,16 +22,7 @@ team-rows with an `is_home` term for home advantage, and the two predicted rates
 are summed to `lambda_total = lambda_home + lambda_away`. Because the sum of two
 independent Poissons is Poisson, the match total is `Poisson(lambda_total)`,
 which yields a full predictive distribution for the Over/Under market, not only
-a point forecast. Alternatives considered and rejected: **direct regression on
-the total** (OLS/GBM), which discards the count structure, can predict
-negatives, and gives no predictive distribution; **Negative Binomial**, since
-the total is slightly *under*-dispersed (variance/mean = 0.98), so Poisson is
-used and NB would add a dispersion parameter without a corresponding gain here;
-**gradient boosting / heavier ML**, which with ~11k matches trades
-interpretability for optimisation the brief does not grade; **bivariate Poisson
-/ Dixon–Coles**, more general but heavier, and the independence checks below find
-little to gain on totals, so it is deferred to the scoreline markets (see Future
-refinements).
+a point forecast. 
 
 ## Data quality issues found and how they were handled
 
