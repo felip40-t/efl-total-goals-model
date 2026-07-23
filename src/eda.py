@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-DATA_PATH = Path("data/match_data_clean.csv")
+DATA_PATH = Path("data/raw/match_data_clean.csv")
 PLOT_PATH = Path("plots")
 
 def total_goals_distribution(df: pd.DataFrame) -> None:

@@ -8,40 +8,14 @@ Script to clean data file to make sure all data can be used.
 from pathlib import Path
 import pandas as pd
 
-INPUT_PATH = Path("data/match_data.csv")
-OUTPUT_PATH = Path("data/match_data_clean.csv")
+INPUT_PATH = Path("data/raw/match_data.csv")
+OUTPUT_PATH = Path("data/raw/match_data_clean.csv")
 
 STRING_COLS = ["league_name", "season", "home_team", "away_team"]
 FLAG_COLS = ["is_neutral_venue", "is_crowds"]
 GOAL_COLS = ["home_goals", "away_goals"]
 XG_COLS = ["home_xg", "away_xg"]
 ABSURD_GOAL_THRESHOLD = 20
-
-def inspect(df: pd.DataFrame) -> None:
-    """
-    Inspect data.
-    """
-    print("\n" + "=" * 20 + f"\nInspect\n" + "=" * 20)
-    print(f"\nShape: {df.shape[0]} rows x {df.shape[1]} cols")
-    print("\nDtypes:\n" + df.dtypes.to_string())
-    print("\nHead:\n" + df.head().to_string())
-    print("\nNull count per column:\n" + df.isna().sum().to_string())
-
-    # Check xG by league and season 
-    xg = df[["league_name", "season"]].copy()
-    xg["matches"] = 1
-    xg["home_xg_null"] = df["home_xg"].isna().astype(int)
-    xg["away_xg_null"] = df["away_xg"].isna().astype(int)
-    xg["either_null"] = (df["home_xg"].isna() | df["away_xg"].isna()).astype(int)
-    xg = xg.groupby(["league_name", "season"]).sum()
-    xg["pct_either_null"] = (100 * xg["either_null"] / xg["matches"]).round(1)
-    print("\nxG missingness by league_name x season:\n" + xg.to_string())
-
-    print(f"\nExact-duplicate rows (raw): {df.duplicated().sum()}")
- 
-    names = pd.concat([df["home_team"], df["away_team"]])
-    ids = pd.concat([df["home_id"], df["away_id"]])
-    print(f"Unique team names: {names.nunique()}   Unique team ids: {ids.nunique()}")
 
 def clean(df: pd.DataFrame) -> (pd.DataFrame, dict):
     """
@@ -169,8 +143,6 @@ def main() -> None:
             f"Place match_data.csv next to this script."
         )
     df = pd.read_csv(INPUT_PATH)
-    n_in = len(df)
-    inspect(df)
     cleaned_df, dropped = clean(df)
     write(cleaned_df)
     summary(cleaned_df, dropped)

@@ -1,0 +1,221 @@
+season,league,group,model,metric,value
+2019/2020,all,total_goals,model,MAE,1.2882
+2019/2020,all,total_goals,model,RMSE,1.6136
+2019/2020,all,total_goals,model,bias (mean pred - actual),-0.0537
+2019/2020,all,total_goals,model,Poisson NLL,1.8573
+2019/2020,all,total_goals,model,mean Poisson deviance,1.0862
+2019/2020,all,total_goals,naive,MAE,1.2899
+2019/2020,all,total_goals,naive,RMSE,1.6043
+2019/2020,all,total_goals,naive,bias (mean pred - actual),0.0474
+2019/2020,all,total_goals,naive,Poisson NLL,1.851
+2019/2020,all,total_goals,naive,mean Poisson deviance,1.0735
+2019/2020,all,per_side_goals,model,MAE,0.9073
+2019/2020,all,per_side_goals,model,RMSE,1.1643
+2019/2020,all,per_side_goals,model,bias (mean pred - actual),-0.0268
+2019/2020,all,per_side_goals,model,Poisson NLL,1.4592
+2019/2020,all,per_side_goals,model,mean Poisson deviance,1.1582
+2019/2020,all,over_under_2.5,model,Over2.5 base rate,0.5015
+2019/2020,all,over_under_2.5,model,Over2.5 mean predicted P,0.4801
+2019/2020,all,over_under_2.5,model,Over2.5 Brier,0.2527
+2019/2020,all,over_under_2.5,model,Over2.5 accuracy @0.5,0.5173
+2019/2020,all,over_under_2.5,model,Over2.5 majority-class accuracy,0.5015
+2020/2021,all,total_goals,model,MAE,1.3168
+2020/2021,all,total_goals,model,RMSE,1.6341
+2020/2021,all,total_goals,model,bias (mean pred - actual),0.1089
+2020/2021,all,total_goals,model,Poisson NLL,1.8546
+2020/2021,all,total_goals,model,mean Poisson deviance,1.1593
+2020/2021,all,total_goals,naive,MAE,1.3239
+2020/2021,all,total_goals,naive,RMSE,1.6393
+2020/2021,all,total_goals,naive,bias (mean pred - actual),0.1553
+2020/2021,all,total_goals,naive,Poisson NLL,1.8579
+2020/2021,all,total_goals,naive,mean Poisson deviance,1.1658
+2020/2021,all,per_side_goals,model,MAE,0.9242
+2020/2021,all,per_side_goals,model,RMSE,1.1741
+2020/2021,all,per_side_goals,model,bias (mean pred - actual),0.0544
+2020/2021,all,per_side_goals,model,Poisson NLL,1.4547
+2020/2021,all,per_side_goals,model,mean Poisson deviance,1.2255
+2020/2021,all,over_under_2.5,model,Over2.5 base rate,0.4555
+2020/2021,all,over_under_2.5,model,Over2.5 mean predicted P,0.4893
+2020/2021,all,over_under_2.5,model,Over2.5 Brier,0.2492
+2020/2021,all,over_under_2.5,model,Over2.5 accuracy @0.5,0.535
+2020/2021,all,over_under_2.5,model,Over2.5 majority-class accuracy,0.5445
+2021/2022,all,total_goals,model,MAE,1.2985
+2021/2022,all,total_goals,model,RMSE,1.6047
+2021/2022,all,total_goals,model,bias (mean pred - actual),-0.0015
+2021/2022,all,total_goals,model,Poisson NLL,1.853
+2021/2022,all,total_goals,model,mean Poisson deviance,1.0815
+2021/2022,all,total_goals,naive,MAE,1.3066
+2021/2022,all,total_goals,naive,RMSE,1.6127
+2021/2022,all,total_goals,naive,bias (mean pred - actual),-0.0331
+2021/2022,all,total_goals,naive,Poisson NLL,1.8577
+2021/2022,all,total_goals,naive,mean Poisson deviance,1.0908
+2021/2022,all,per_side_goals,model,MAE,0.9148
+2021/2022,all,per_side_goals,model,RMSE,1.1669
+2021/2022,all,per_side_goals,model,bias (mean pred - actual),-0.0008
+2021/2022,all,per_side_goals,model,Poisson NLL,1.4548
+2021/2022,all,per_side_goals,model,mean Poisson deviance,1.1643
+2021/2022,all,over_under_2.5,model,Over2.5 base rate,0.4946
+2021/2022,all,over_under_2.5,model,Over2.5 mean predicted P,0.4949
+2021/2022,all,over_under_2.5,model,Over2.5 Brier,0.2493
+2021/2022,all,over_under_2.5,model,Over2.5 accuracy @0.5,0.5209
+2021/2022,all,over_under_2.5,model,Over2.5 majority-class accuracy,0.5054
+2022/2023,all,total_goals,model,MAE,1.3093
+2022/2023,all,total_goals,model,RMSE,1.6287
+2022/2023,all,total_goals,model,bias (mean pred - actual),0.0411
+2022/2023,all,total_goals,model,Poisson NLL,1.8554
+2022/2023,all,total_goals,model,mean Poisson deviance,1.1269
+2022/2023,all,total_goals,naive,MAE,1.3226
+2022/2023,all,total_goals,naive,RMSE,1.6407
+2022/2023,all,total_goals,naive,bias (mean pred - actual),0.0462
+2022/2023,all,total_goals,naive,Poisson NLL,1.8625
+2022/2023,all,total_goals,naive,mean Poisson deviance,1.1413
+2022/2023,all,per_side_goals,model,MAE,0.9161
+2022/2023,all,per_side_goals,model,RMSE,1.1616
+2022/2023,all,per_side_goals,model,bias (mean pred - actual),0.0206
+2022/2023,all,per_side_goals,model,Poisson NLL,1.4505
+2022/2023,all,per_side_goals,model,mean Poisson deviance,1.189
+2022/2023,all,over_under_2.5,model,Over2.5 base rate,0.473
+2022/2023,all,over_under_2.5,model,Over2.5 mean predicted P,0.4879
+2022/2023,all,over_under_2.5,model,Over2.5 Brier,0.2475
+2022/2023,all,over_under_2.5,model,Over2.5 accuracy @0.5,0.5438
+2022/2023,all,over_under_2.5,model,Over2.5 majority-class accuracy,0.527
+2023/2024,all,total_goals,model,MAE,1.2793
+2023/2024,all,total_goals,model,RMSE,1.5811
+2023/2024,all,total_goals,model,bias (mean pred - actual),-0.1302
+2023/2024,all,total_goals,model,Poisson NLL,1.8536
+2023/2024,all,total_goals,model,mean Poisson deviance,1.0095
+2023/2024,all,total_goals,naive,MAE,1.3082
+2023/2024,all,total_goals,naive,RMSE,1.6115
+2023/2024,all,total_goals,naive,bias (mean pred - actual),-0.1742
+2023/2024,all,total_goals,naive,Poisson NLL,1.8709
+2023/2024,all,total_goals,naive,mean Poisson deviance,1.044
+2023/2024,all,per_side_goals,model,MAE,0.9191
+2023/2024,all,per_side_goals,model,RMSE,1.162
+2023/2024,all,per_side_goals,model,bias (mean pred - actual),-0.0651
+2023/2024,all,per_side_goals,model,Poisson NLL,1.4734
+2023/2024,all,per_side_goals,model,mean Poisson deviance,1.1271
+2023/2024,all,over_under_2.5,model,Over2.5 base rate,0.5451
+2023/2024,all,over_under_2.5,model,Over2.5 mean predicted P,0.4972
+2023/2024,all,over_under_2.5,model,Over2.5 Brier,0.2457
+2023/2024,all,over_under_2.5,model,Over2.5 accuracy @0.5,0.5438
+2023/2024,all,over_under_2.5,model,Over2.5 majority-class accuracy,0.5451
+2024/2025,all,total_goals,model,MAE,1.2687
+2024/2025,all,total_goals,model,RMSE,1.5993
+2024/2025,all,total_goals,model,bias (mean pred - actual),0.0427
+2024/2025,all,total_goals,model,Poisson NLL,1.8447
+2024/2025,all,total_goals,model,mean Poisson deviance,1.0795
+2024/2025,all,total_goals,naive,MAE,1.2868
+2024/2025,all,total_goals,naive,RMSE,1.6093
+2024/2025,all,total_goals,naive,bias (mean pred - actual),0.0292
+2024/2025,all,total_goals,naive,Poisson NLL,1.8511
+2024/2025,all,total_goals,naive,mean Poisson deviance,1.0922
+2024/2025,all,per_side_goals,model,MAE,0.8867
+2024/2025,all,per_side_goals,model,RMSE,1.1402
+2024/2025,all,per_side_goals,model,bias (mean pred - actual),0.0214
+2024/2025,all,per_side_goals,model,Poisson NLL,1.443
+2024/2025,all,per_side_goals,model,mean Poisson deviance,1.1312
+2024/2025,all,over_under_2.5,model,Over2.5 base rate,0.4966
+2024/2025,all,over_under_2.5,model,Over2.5 mean predicted P,0.4968
+2024/2025,all,over_under_2.5,model,Over2.5 Brier,0.2466
+2024/2025,all,over_under_2.5,model,Over2.5 accuracy @0.5,0.5398
+2024/2025,all,over_under_2.5,model,Over2.5 majority-class accuracy,0.5034
+2025/2026,all,total_goals,model,MAE,1.2237
+2025/2026,all,total_goals,model,RMSE,1.5124
+2025/2026,all,total_goals,model,bias (mean pred - actual),0.0252
+2025/2026,all,total_goals,model,Poisson NLL,1.8095
+2025/2026,all,total_goals,model,mean Poisson deviance,0.9855
+2025/2026,all,total_goals,naive,MAE,1.2329
+2025/2026,all,total_goals,naive,RMSE,1.521
+2025/2026,all,total_goals,naive,bias (mean pred - actual),0.0202
+2025/2026,all,total_goals,naive,Poisson NLL,1.8144
+2025/2026,all,total_goals,naive,mean Poisson deviance,0.9953
+2025/2026,all,per_side_goals,model,MAE,0.8838
+2025/2026,all,per_side_goals,model,RMSE,1.1087
+2025/2026,all,per_side_goals,model,bias (mean pred - actual),0.0126
+2025/2026,all,per_side_goals,model,Poisson NLL,1.4383
+2025/2026,all,per_side_goals,model,mean Poisson deviance,1.0992
+2025/2026,all,over_under_2.5,model,Over2.5 base rate,0.5139
+2025/2026,all,over_under_2.5,model,Over2.5 mean predicted P,0.4943
+2025/2026,all,over_under_2.5,model,Over2.5 Brier,0.2492
+2025/2026,all,over_under_2.5,model,Over2.5 accuracy @0.5,0.511
+2025/2026,all,over_under_2.5,model,Over2.5 majority-class accuracy,0.5139
+pooled,all,total_goals,model,MAE,1.2864
+pooled,all,total_goals,model,RMSE,1.6005
+pooled,all,total_goals,model,bias (mean pred - actual),0.0045
+pooled,all,total_goals,model,Poisson NLL,1.8486
+pooled,all,total_goals,model,mean Poisson deviance,1.0797
+pooled,all,total_goals,naive,MAE,1.299
+pooled,all,total_goals,naive,RMSE,1.6101
+pooled,all,total_goals,naive,bias (mean pred - actual),0.0121
+pooled,all,total_goals,naive,Poisson NLL,1.8541
+pooled,all,total_goals,naive,mean Poisson deviance,1.0908
+pooled,all,per_side_goals,model,MAE,0.9086
+pooled,all,per_side_goals,model,RMSE,1.1562
+pooled,all,per_side_goals,model,bias (mean pred - actual),0.0023
+pooled,all,per_side_goals,model,Poisson NLL,1.4541
+pooled,all,per_side_goals,model,mean Poisson deviance,1.1592
+pooled,all,over_under_2.5,model,Over2.5 base rate,0.4963
+pooled,all,over_under_2.5,model,Over2.5 mean predicted P,0.4915
+pooled,all,over_under_2.5,model,Over2.5 Brier,0.2485
+pooled,all,over_under_2.5,model,Over2.5 accuracy @0.5,0.5314
+pooled,all,over_under_2.5,model,Over2.5 majority-class accuracy,0.5037
+pooled,Championship,total_goals,model,MAE,1.2579
+pooled,Championship,total_goals,model,RMSE,1.5552
+pooled,Championship,total_goals,model,bias (mean pred - actual),0.061
+pooled,Championship,total_goals,model,Poisson NLL,1.8179
+pooled,Championship,total_goals,model,mean Poisson deviance,1.0733
+pooled,Championship,total_goals,naive,MAE,1.2639
+pooled,Championship,total_goals,naive,RMSE,1.558
+pooled,Championship,total_goals,naive,bias (mean pred - actual),0.0601
+pooled,Championship,total_goals,naive,Poisson NLL,1.8197
+pooled,Championship,total_goals,naive,mean Poisson deviance,1.0769
+pooled,Championship,per_side_goals,model,MAE,0.8784
+pooled,Championship,per_side_goals,model,RMSE,1.1177
+pooled,Championship,per_side_goals,model,bias (mean pred - actual),0.0305
+pooled,Championship,per_side_goals,model,Poisson NLL,1.4225
+pooled,Championship,per_side_goals,model,mean Poisson deviance,1.1377
+pooled,Championship,over_under_2.5,model,Over2.5 base rate,0.4672
+pooled,Championship,over_under_2.5,model,Over2.5 mean predicted P,0.4738
+pooled,Championship,over_under_2.5,model,Over2.5 Brier,0.2487
+pooled,Championship,over_under_2.5,model,Over2.5 accuracy @0.5,0.5311
+pooled,Championship,over_under_2.5,model,Over2.5 majority-class accuracy,0.5328
+pooled,League One,total_goals,model,MAE,1.2977
+pooled,League One,total_goals,model,RMSE,1.6112
+pooled,League One,total_goals,model,bias (mean pred - actual),-0.0225
+pooled,League One,total_goals,model,Poisson NLL,1.8536
+pooled,League One,total_goals,model,mean Poisson deviance,1.1079
+pooled,League One,total_goals,naive,MAE,1.3017
+pooled,League One,total_goals,naive,RMSE,1.6086
+pooled,League One,total_goals,naive,bias (mean pred - actual),0.024
+pooled,League One,total_goals,naive,Poisson NLL,1.8518
+pooled,League One,total_goals,naive,mean Poisson deviance,1.1044
+pooled,League One,per_side_goals,model,MAE,0.9088
+pooled,League One,per_side_goals,model,RMSE,1.1539
+pooled,League One,per_side_goals,model,bias (mean pred - actual),-0.0113
+pooled,League One,per_side_goals,model,Poisson NLL,1.4541
+pooled,League One,per_side_goals,model,mean Poisson deviance,1.1731
+pooled,League One,over_under_2.5,model,Over2.5 base rate,0.4886
+pooled,League One,over_under_2.5,model,Over2.5 mean predicted P,0.4773
+pooled,League One,over_under_2.5,model,Over2.5 Brier,0.2506
+pooled,League One,over_under_2.5,model,Over2.5 accuracy @0.5,0.5139
+pooled,League One,over_under_2.5,model,Over2.5 majority-class accuracy,0.5114
+pooled,Premier League,total_goals,model,MAE,1.312
+pooled,Premier League,total_goals,model,RMSE,1.6497
+pooled,Premier League,total_goals,model,bias (mean pred - actual),-0.0401
+pooled,Premier League,total_goals,model,Poisson NLL,1.8861
+pooled,Premier League,total_goals,model,mean Poisson deviance,1.05
+pooled,Premier League,total_goals,naive,MAE,1.3233
+pooled,Premier League,total_goals,naive,RMSE,1.665
+pooled,Premier League,total_goals,naive,bias (mean pred - actual),-0.0727
+pooled,Premier League,total_goals,naive,Poisson NLL,1.8949
+pooled,Premier League,total_goals,naive,mean Poisson deviance,1.0675
+pooled,Premier League,per_side_goals,model,MAE,0.9522
+pooled,Premier League,per_side_goals,model,RMSE,1.2131
+pooled,Premier League,per_side_goals,model,bias (mean pred - actual),-0.02
+pooled,Premier League,per_side_goals,model,Poisson NLL,1.5
+pooled,Premier League,per_side_goals,model,mean Poisson deviance,1.171
+pooled,Premier League,over_under_2.5,model,Over2.5 base rate,0.5492
+pooled,Premier League,over_under_2.5,model,Over2.5 mean predicted P,0.5371
+pooled,Premier League,over_under_2.5,model,Over2.5 Brier,0.2454
+pooled,Premier League,over_under_2.5,model,Over2.5 accuracy @0.5,0.5559
+pooled,Premier League,over_under_2.5,model,Over2.5 majority-class accuracy,0.5492
